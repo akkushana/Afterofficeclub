@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <section className="section"><div className="container" style={{ maxWidth: 700 }}><span className="eyebrow">404</span><h1>That page is not in the library.</h1><p className="muted">The link may be outdated, or this item has not been published.</p><Link className="button button-dark" href="/explore">Explore roles ↗</Link></div></section>; }

@@ -1,0 +1,2 @@
+import { Page } from "@/components/legal-page";
+export default function TermsPage() { return <Page eyebrow="Terms" title="Use the library with care."><div className="notice">Legal review required before public launch.</div><p>Starter editorial content is provided for exploration and discussion. It is not a job guarantee, professional advice, legal advice or a promise about any employer. Verify important information with current official sources and the people involved.</p></Page>; }

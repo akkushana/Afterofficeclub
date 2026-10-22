@@ -1,0 +1,1 @@
+export function Page({ title, eyebrow, children }: { title: string; eyebrow: string; children: React.ReactNode }) { return <><section className="page-hero"><div className="container"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1></div></section><section className="section"><div className="container article" style={{ maxWidth: 760 }}>{children}</div></section></>; }

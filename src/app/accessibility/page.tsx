@@ -1,0 +1,2 @@
+import { Page } from "@/components/legal-page";
+export default function AccessibilityPage() { return <Page eyebrow="Accessibility" title="Everyone should be able to ask a better question."><p>We aim for WCAG 2.2 AA patterns: semantic landmarks, keyboard navigation, visible focus, readable contrast, reduced motion and honest status messages. No contact address is configured in this demo. Configure a valid owner-managed contact method before launch so barriers can be reported.</p></Page>; }
